@@ -1,0 +1,4 @@
+include:
+  - component: $CI_SERVER_FQDN/components/minidocker/docker-build-manifest@1.0.1
+    inputs:
+      dockerhub: true
